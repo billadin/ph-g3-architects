@@ -1,0 +1,106 @@
+
+/* main font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Commomn styles */
+.btn-primary {
+    padding: 1.25rem 1.5rem;
+    border: 0;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 3.125rem 12.5rem;
+}
+
+.nav-title {
+    color: #131313;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 2.5rem;
+    color: #424242;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.banner {
+    padding-top: 6.375rem;
+}
+
+.banner-content {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: #131313;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-desc {
+    padding: 2rem 0;
+    color: #727272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.banner-btn {
+    margin-bottom: 3.125rem;
+}
+
+
+.banner-img {
+    width: 100%;
+}
