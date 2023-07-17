@@ -172,7 +172,7 @@ main {
 }
 
 .feature-content {
-    max-width: 40%;
+    width: 40%;
 }
 
 .feature-title {
@@ -340,6 +340,7 @@ main {
     }
 
 .sponsor-container {
+    width: 100%;
     margin-top: 3.125rem;
     display: flex;
     justify-content: space-between;
@@ -364,6 +365,68 @@ footer {
     padding: 2.5rem 18vw;
     color: #424242;
     text-align: center;
-    font-size: 1vw
+    font-size: 1vw;
 }
 /* Footer styling end */
+
+/* media queries for small screen size */
+@media screen and (max-width: 576px) {
+    nav, .features, .facts-card-container, .sponsor-container {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0
+    }
+    header {
+        padding: 10px;
+    }
+    .banner {
+        padding-top: 3rem;
+    }
+    .banner-content {
+        width: 80%;
+    }
+    main, footer, .footer-content {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .quick-list {
+        margin-top: 30px;
+        flex-direction: column-reverse;
+    }
+    .quick-list-img-container {
+        grid-template-columns: 1fr;
+    }
+    .feature-content {
+        width: 100%;
+        text-align: center;
+    }
+    .feature-img, .facts-desc, .sponsor-desc {
+        width: 100%;
+    }
+    .ten-years-experience {
+        bottom: 300px;
+        left: 0px;
+    }
+    .facts {
+        text-align: center;
+        margin: 0;
+    }
+
+    .sponsors, .sponsor-desc {
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+    .sponsor-container {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .footer-desc {
+        margin: 0;
+        padding: 10px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+}
