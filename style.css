@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* Commomn styles */
@@ -16,7 +17,6 @@
     background: #FF900E;
     color: #FFF;
     text-align: center;
-    font-family: Work Sans;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
@@ -163,3 +163,157 @@ main {
     margin-bottom: 2rem;   
 }
 /* Quick List styling end */
+
+/* Features section styling start */
+.features {
+    display: flex;
+    gap: 10%;
+    margin-bottom: 6.5rem;
+}
+
+.feature-content {
+    max-width: 40%;
+}
+
+.feature-title {
+    color:  #131313;
+    font-family: Work Sans;
+    font-size: 2.813rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1.5rem;
+}
+
+.feature-desc {
+    color: #727272;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 1.875rem;
+}
+
+.feature-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.feature-card {
+    padding: 1.875rem;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-card-title {
+    color: #131313;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.feature-card-desc {
+    color: #727272;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.feature-img {
+    width: 50%;
+}
+
+.feature-img img{
+    width: 100%;
+}
+
+.ten-years-experience {
+    background-color: #131313;
+    width: 48%;
+    padding: 2vw;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    background: #FF900E;
+    position: relative;
+    bottom: 105px;
+    right: 80px;
+}
+
+.ten-years-experience h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 3.38vw;
+    font-weight: 700;
+    
+}
+
+.ten-years-experience p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 500;
+}
+/* Features section styling end */
+
+/* Facts section styling start */
+.facts {
+    margin-bottom: 11.25rem;
+}
+
+.facts-title {
+    color:#131313;
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1.5rem;
+}
+
+.facts-desc {
+    width: 50%;
+    color: #727272;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 6.25rem;
+}
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 2.813rem 2.18rem 3.75rem 2.18rem;
+    text-align: center;
+}
+
+.facts-card-stats {
+    color:#424242;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.facts-card-desc {
+    color: #727272;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
