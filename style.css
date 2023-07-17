@@ -371,7 +371,7 @@ footer {
 
 /* media queries for small screen size */
 @media screen and (max-width: 576px) {
-    nav, .features, .facts-card-container, .sponsor-container {
+    nav, .features, .facts-card-container{
         flex-direction: column;
         gap: 10px;
         margin: 0
@@ -417,10 +417,14 @@ footer {
         margin-bottom: 40px;
     }
     .sponsor-container {
+        width: 100%;
         display: grid;
-        gap: 20px;
+        gap: 10px;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
+        /* grid-template-rows: 1fr; */
+    }
+    .sponsor-container > img {
+        width: 100px;
     }
     .footer-desc {
         margin: 0;
