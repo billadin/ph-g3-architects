@@ -344,3 +344,27 @@ main {
     display: flex;
     justify-content: space-between;
 }
+/* Sponsor styling end */
+
+/* Footer styling start */
+footer {
+    max-width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: #FFF4E7;
+    height: auto;
+}
+
+.footer-content {
+    margin-bottom: 13.25rem;
+}
+
+.footer-desc {
+    padding: 2.5rem 18vw;
+    color: #424242;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+/* Footer styling end */
